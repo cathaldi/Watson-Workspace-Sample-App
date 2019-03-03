@@ -39,6 +39,7 @@ The Application is meant to demo
  - Using Actions in a Workspace : Handling Basic /slash commands
  - Using Action Fulfillment: Underlining text 
  
+ ## Feature Examples
  
  ### Sending Messages & adding Focus Annotations
  ![alt text](images/RPS_focus_annotation_event.png "Image showing a Watson Workspace Message enhanced with Focus Annotations")
