@@ -24,7 +24,7 @@ is 3.6.4
 
 - requirements.txt : Our python dependancies
 
-app.py : Our python webserver
+- app.py : Our python webserver
 
 ## Application
 
@@ -47,7 +47,7 @@ The Application is meant to demo
     workspace_message.add_focus(start=31, end=35, actions='"/RPS Paper"')
     workspace_message.add_focus(start=37, end=45, actions='"/RPS Scissors"')
 
- 
+ ---
                                      
  ### Acition Fulfillment
  ![alt text](images/RPS_action_fulfillment.png "Image showing Watson Workspace Action Fulfillment")
@@ -71,6 +71,7 @@ The Application is meant to demo
                                     target_dialog_id=webhook_event.annotation.get("targetDialogId"),
                                     target_user_id=webhook_event.user_id, annotation=response_annotaiton)
 
+    ---
  
  ### Attachments
   ![alt text](images/cards.png "Image showing Watson Workspace Cards")
@@ -91,7 +92,7 @@ The Application is meant to demo
                                       target_dialog_id=webhook_event.annotation.get("targetDialogId"),
                                       target_user_id=webhook_event.user_id,
                                       cards=deck)
- 
+ ---
  
  ### Slash Commands
  ![alt text](images/RPS_slash_command.png "An Image showing the result of a Watson Workspace /RPS command")
@@ -99,3 +100,4 @@ The Application is meant to demo
  As Slash commands were specifically set up we can interact with the application.
  They are added through the Watson Workspace App view, under Actions.
  
+ ---
