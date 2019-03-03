@@ -12,6 +12,11 @@ To get this demo up and running you will need an IBM Account.
 - Create a Listener for create-messages and create-annotation using the IBM cloud app url with '/workspace/messages' anf /workspace/annotations' respectfully.
 - Update environment variables in the Python app ( Under Runtime -> Environment Variables )
 
+From the creation of the app and listeners the following environment variables can be set.
+- APP_ID
+- APP_SECRET
+- MESSAGES_WEBHOOK_SECRET
+- ANNOTATIONS_WEBHOOK_SECRET
 
 ## Files in this repo
 
