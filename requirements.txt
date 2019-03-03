@@ -1,0 +1,4 @@
+flask
+git+https://github.com/cathaldi/watson-workspace-python-sdk
+requests
+gunicorn
