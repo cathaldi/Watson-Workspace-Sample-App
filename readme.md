@@ -46,7 +46,7 @@ The Application is meant to demo
  ## Feature Examples
  
  ### Sending Messages & adding Focus Annotations
- ![alt text](images/old_RPS_focus_annotation_event.png "Image showing a Watson Workspace Message enhanced with Focus Annotations")
+ ![alt text](images/RPS_focus_annotation_event.png "Image showing a Watson Workspace Message enhanced with Focus Annotations")
  
  Focus annotations allow us to underline text by phrases used in the text or by specifying the start and end position
  of the text. When adding an annotation we also specify an action to be called when it's clicked. In the above example we selected Paper.
