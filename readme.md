@@ -65,6 +65,8 @@ The Application is meant to demo
  An Annotations Webhook event is fired and handled by the application
  For action fulfillment we need to get the Dialogue id from the webhook event.
  
+  ![alt text](images/RPS_sample_action.png "Image showing the result of clicking a Watson Workspace event")
+  
  The result is a pop up at the bottom with a suggested action. Once the pop up is clicked the action will be executed.
  You'll see the annotation itself will have the option of the focus annotation clicked. So in the image above by clicking on the Rock 
  focus annotation we are shown the /RPS Rock pop up.
