@@ -6,11 +6,15 @@ The application is deployed on IBM's Cloudfoundary service.
 
 
 To get this demo up and running you will need an IBM Account.
-- Create a free [Cloud Foundary python app ](https://cloud.ibm.com/catalog/starters/python)
+- Create a free [Cloud Foundary python app ](https://cloud.ibm.com/catalog/starters/python) that is **hosted in Dallas**
 - Git clone this repo and push to cloud foundary  ( Instructions under the Getting Started section of the CF App )
 - Create a [Watson workspace App](https://developer.watsonwork.ibm.com)
 - Create a Listener for create-messages and create-annotation using the IBM cloud app url with '/workspace/messages' anf /workspace/annotations' respectfully.
 - Update environment variables in the Python app ( Under Runtime -> Environment Variables )
+
+App should be hosted in Dallas to ensure the webhook receives a response in under 2 seconds.
+If it does not receive a response in that timeframe it will replay the event until a a response is received
+in under 2 seconds.
 
 From the creation of the app and listeners the following environment variables can be set.
 - APP_ID
