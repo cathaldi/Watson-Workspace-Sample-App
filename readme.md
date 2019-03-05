@@ -8,8 +8,8 @@ The application is deployed on IBM's Cloudfoundary service.
 To get this demo up and running you will need an IBM Account.
 - Create a free [Cloud Foundary python app ](https://cloud.ibm.com/catalog/starters/python) that is **hosted in Dallas**
 - Git clone this repo and push to cloud foundary  ( Instructions under the Getting Started section of the CF App )
-- Create a [Watson workspace App](https://developer.watsonwork.ibm.com)
-- Create a Listener for create-messages and create-annotation using the IBM cloud app url with '/workspace/messages' anf /workspace/annotations' respectfully.
+- Create a [Watson workspace App](https://developer.watsonwork.ibm.com). Instructions can be found [here](https://watson-workspace-python-sdk.readthedocs.io/en/latest/making_a_bot.html).
+- Create a Listener for create-messages and create-annotation using the IBM cloud app url with '/workspace/messages' anf /workspace/annotations' respectfully. [Instructions found here](https://watson-workspace-python-sdk.readthedocs.io/en/latest/webhooks.html)
 - Update environment variables in the Python app ( Under Runtime -> Environment Variables )
 
 App should be hosted in Dallas to ensure the webhook receives a response in under 2 seconds.
@@ -46,7 +46,7 @@ The Application is meant to demo
  ## Feature Examples
  
  ### Sending Messages & adding Focus Annotations
- ![alt text](images/RPS_focus_annotation_event.png "Image showing a Watson Workspace Message enhanced with Focus Annotations")
+ ![alt text](images/old_RPS_focus_annotation_event.png "Image showing a Watson Workspace Message enhanced with Focus Annotations")
  
  Focus annotations allow us to underline text by phrases used in the text or by specifying the start and end position
  of the text. When adding an annotation we also specify an action to be called when it's clicked. In the above example we selected Paper.
