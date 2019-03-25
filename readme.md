@@ -1,5 +1,8 @@
 # Watson Workspace Python Sample App
 
+## **As of March 1st 2019 Watson Workspace has been retired. Due to this the sample project is no longer functional**
+
+
 ## Setup
 This is a basic [Watson Workspace](https://help.workspace.ibm.com/hc/en-us/articles/230038427-What-is-Watson-Workspace-) bot that reacts to messages and user events using [this repo](https://github.com/cathaldi/watson-workspace-python-sdk).
 The application is deployed on IBM's Cloudfoundary service.
